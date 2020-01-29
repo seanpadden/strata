@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Strata Playground</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Static HTML</h1>
+          <p>This is how the final form should look.</p>
+          <form action="/new_user.html" method="POST" >
+            <div>
+              <span>Full Name</span>
+              <input type="textbox" id="fullname" />
+            </div>
+            <div>
+              <span>Email</span>
+              <input type="textbox" id="email" />
+            </div>
+            <div>
+              <span>Password</span>
+              <input type="textbox" id="password" />
+            </div>
+            <div>
+              <button type="submit">Done</button>
+            </div>
+          </form> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div style="margin: 50px 0; border-top: 1px solid black; padding-top: 20px;">
+            <h1>Hand coded HTML with JavaScript</h1>
+            <div id="root"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../src/playground/index.js" ></script>
+  </body>
+</html>
